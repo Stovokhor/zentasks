@@ -1,0 +1,14 @@
+@(task: Task)
+
+<li data-task-id="@task.getId">
+	<h4>@task.getTitle</h4>
+	@if(task.getDueDate != null) {
+		<time datetime="@task.getDueDate">
+			@task.getDueDate.format("dd.MM.yyyy")
+		</time>
+	}
+	
+	@if(task.getAssignedTo != null && task.getAssignedTo.getEmail != null) {
+		<span class="assignedTo">@task.getAssignedTo.getEmail</span>
+	}
+</li>
