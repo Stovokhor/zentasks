@@ -1,0 +1,11 @@
+[info] models.ModelsTest
+[info] + models.ModelsTest.tryAuthenticateUser
+[info] + models.ModelsTest.fullTest
+[info] + models.ModelsTest.createAndRetrieveUser
+[info] + models.ModelsTest.findProjectsInvolving
+[info] + models.ModelsTest.findTodoTasksInvolving
+[info] 
+[info] 
+[info] Total for test models.ModelsTest
+[info] Finished in 0.003 seconds
+[info] 5 tests, 0 failures, 0 errors
